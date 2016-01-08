@@ -1,0 +1,38 @@
+body {
+  background-color: #e0e0a0;
+}
+
+img {
+  border: 1px solid #000000;
+  width:100%;
+}
+
+a {
+  text-decoration:none;
+  cursor: pointer;
+}
+
+div {
+  display:inline-block;
+}
+
+.img-title {
+  height: 70px;
+  width: auto;
+  border-radius:10px;
+}
+
+.img-title-borderless {
+  height: 100px;
+  width: auto;
+  border: 0px;
+}
+
+.project-container {
+  text-align: center;
+}
+
+.divider {
+  display: block;
+  margin: 50px;
+}
