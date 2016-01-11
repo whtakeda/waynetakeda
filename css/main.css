@@ -14,9 +14,8 @@ a {
   cursor: pointer;
 }
 
-a :hover {
-  border:1px solid #ff00ff;
-  opacity: 0.7;
+a:hover {
+  opacity: 0.4;
 }
 
 div {
@@ -72,9 +71,10 @@ div {
   margin-right: 20px;
 }
 
-a {
-  text-decoration: none;
+.portfolio {
+  height: 100px;
 }
+
 
 /**********************************************************************/
 .hovereffect {
