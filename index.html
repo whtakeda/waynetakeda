@@ -3,23 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"></head>
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <title>
   </title>
 </head>
 <body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+       </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="hovermain" id="home">
+    <img class="img-responsive" src="images/computer.png" alt="">
+    <div class="overlay">
+      <h1>Wayne Takeda</h1>
+      <h2>Web Developer</h2>
+    </div>
+  </div>
+
+  <div style="height:100px" id="portfolio"></div>
+
   <div class="project-container">
     <div class="col-xs-1"></div>
     <div class="col-xs-5">
-      <img src="images/tic_tac_toe.png">
+      <div class="hovereffect">
+        <img class="img-responsive" src="images/tic_tac_toe.png" alt="">
+        <div class="overlay">
+          <br /><br /><br /><br />
+          <h1><a href="http://whtakeda.github.io/tictactoe" target="_blank">Play Tic-Tac-Toe</a></h1>
+        </div>
+      </div>
     </div>
     <div class="col-xs-1"></div>
     <div class="col-xs-4">
-      <a href="http://whtakeda.github.io/tictactoe" target="_blank"><img src="images/tic_tac_toe_title.png" class="img-title"></a><br />
-      <div>(a.k.a tic-tac-toe)</div>
-      <div>Although not technically a full-fledged project, it was my first attempt at some sort of functional app.</div>
-      <div>Javascript, HTML, CSS</div>
+      <img src="images/tic_tac_toe_title.png" class="img-title"><br />
+      <div>(a.k.a Tic-Tac-Toe)</div>
+      <div class="divider"></div>
+      <p>A fun, silly version of tic-tac-toe.  You can play against another player or the computer.</p>
+      <p>Development Tools: JavaScript, HTML, CSS</p>
     </div>
     <div class="col-xs-1"></div>
   </div>
@@ -29,12 +59,20 @@
   <div class="project-container">
     <div class="col-xs-1"></div>
     <div class="col-xs-5">
-      <img src="images/card_collection.png">
+      <div class="hovereffect">
+        <img class="img-responsive" src="images/card_collection.png" alt="">
+        <div class="overlay">
+          <br /><br /><br /><br />
+          <h1><a href="http://whtakeda.github.io/cardcollection" target="_blank">Play Card Collection</a></h1>
+        </div>
+      </div>
     </div>
     <div class="col-xs-1"></div>
     <div class="col-xs-4">
-      <a href="http://whtakeda.github.io/cardcollection" target="_blank"><img src="images/card_collection_title.png" class="img-title-borderless"></a>
-      <div>Javascript, HTML, CSS, jQuery</div>
+      <img src="images/card_collection_title.png" class="img-title"><br />
+      <div class="divider"></div>
+      <p>A collection of card games, including Concentraion, Mastermind (based on the board game), Whack-A-Card (like Whack-A-Mole), and Race the Clock.</p>
+      <p>Development Tools: JavaScript, HTML, CSS, jQuery</p>
     </div>
     <div class="col-xs-1"></div>
   </div>
@@ -44,12 +82,20 @@
   <div class="project-container">
     <div class="col-xs-1"></div>
     <div class="col-xs-5">
-      <img src="images/tamagatchi2.png">
+      <div class="hovereffect">
+        <img class="img-responsive" src="images/tamagatchi.png" alt="">
+        <div class="overlay">
+          <br /><br /><br /><br />
+          <h1><a href="https://tamagatchi.herokuapp.com" target="_blank">Visit Tamagatchi</a></h1>
+        </div>
+      </div>
     </div>
     <div class="col-xs-1"></div>
     <div class="col-xs-4">
-      <a href="https://blooming-stream-6851.herokuapp.com/" target="_blank"><img src="images/tamagatchi_title.png" class="img-title"></a>
-      <div>Ruby, Rails, PostgreSQL, ActiveRecord</div>
+      <img src="images/tamagatchi_title.png" class="img-title"><br />
+      <div class="divider"></div>
+      <p>This is a quirky app which combines a normal message board with a mini-game where you level up your character based on how often you post messages to the board.</p>
+      <p>Development Tools: Ruby, Rails, JavaScript, PostgreSQL, ActiveRecord</p>
     </div>
     <div class="col-xs-1"></div>
   </div>
@@ -59,12 +105,21 @@
   <div class="project-container">
     <div class="col-xs-1"></div>
     <div class="col-xs-5">
-      <img src="images/pixel_spot2.png">
+      <div class="hovereffect">
+        <img class="img-responsive" src="images/pixel_spot.png" alt="">
+        <div class="overlay">
+          <br /><br /><br /><br />
+          <h1><a href="https://pixelspot.herokuapp.com" target="_blank">Visit Pixel Spot</a></h1>
+        </div>
+      </div>
     </div>
     <div class="col-xs-1"></div>
     <div class="col-xs-4">
-      <a href="https://morning-spire-1673.herokuapp.com" target="_blank" ><img src="images/pixel_spot_title.png" class="img-title"></a>
-      <div>Javscript, Node, Express, Mongo</div>
+      <img src="images/pixel_spot_title.png" class="img-title"><br />
+      <div class="divider"></div>
+      <p>A photo location-sharing app aimed at anyone who is looking for a good photo opportunity and just doesn't know where to find the spot they're looking for.  It uses the Flickr API and Google Maps API to provide locations of photographs and allows users to search the database for just the right background for their photo.</p>
+      <br />
+      <p>Development Tools: Javscript, Node, Express, MongoDB, Google Maps API, Flickr API</p>
     </div>
     <div class="col-xs-1"></div>
   </div>
@@ -74,19 +129,43 @@
   <div class="project-container">
     <div class="col-xs-1"></div>
     <div class="col-xs-5">
-      <img src="images/bucket_list2.png">
+      <div class="hovereffect">
+        <img class="img-responsive" src="images/bucket_list.png" alt="">
+        <div class="overlay">
+          <br /><br />
+          <h1><a href="https://my-bucketlist.herokuapp.com" target="_blank">Create your own<br />Bucket List</a></h1>
+        </div>
+      </div>
     </div>
     <div class="col-xs-1"></div>
     <div class="col-xs-4">
-      <a href="https://sheltered-caverns-1514.herokuapp.com" target="_blank"><img src="images/bucket_list_title.png" class="img-title"></a>
-      <div>Javscript, Node, Express, Angular, Mongo</div>
+      <img src="images/bucket_list_title.png" class="img-title"><br />
+      <div class="divider"></div>
+      <p>Bucket List allows users to share different activities they would like to accomplish during their lifetime.  People can create their own custom bucket lists and track their progress for the activities on their list.</p>
+      <p>Development Tools: Javscript, Node, Express, Angular, MongoDB, Google Maps API</p>
     </div>
     <div class="col-xs-1"></div>
   </div>
 
-  <div>
-  LinkedIn
-  GitHub
+  <div class="contact" id="contact">
+    <div class="contact-divider">
+      <div class='col-xs-1'></div>
+      <div class='col-xs-2'>
+        <img src="images/headshot.png" class="headshot">
+      </div>
+      <div class='col-xs-1'></div>
+      <div class='col-xs-3'>
+        <h1>Contact Me</h1>
+        <a href="mailto:whtakeda@gmail.com"><img src="images/email.png" class="logos"></a>
+        <a href="https://www.linkedin.com/in/waynetakeda" target="_blank"><img src="images/linkedin.png" class="logos"></a>
+        <a href="https://github.com/whtakeda" target="_blank"><img src="images/github.png" class="logos"></a>
+      </div>
+      <div class='col-xs-4'>
+        <h1>About Me</h1>
+        <p>I've been a desktop software developer for a number of years and I'm finally making the transition into web development.  I enjoy a good code challenge and enjoy a good code solution even more.</p>
+        <p>In my spare time I like to solve twisty puzzles (e.g. Rubik's Cubes).  I also hope to qualify for the Boston Marathon someday.</p>
+      </div>
   </div>
   </body>
+  <script src="js/smoothscroll.js"></script>
 </html>
